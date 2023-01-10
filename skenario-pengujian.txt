@@ -1,0 +1,50 @@
+Skenario Pengujian:
+--------------------------------------------
+LoginViewModelTest
+
+ 1.Saat Login Berhasil
+  -Memastikan mengembalikan Result.Success
+  -Ketika melakukan login data tidak NULL
+
+ 2.Saat Login Gagal
+  -Memastikan mengembalikan Result.Error
+  -Ketika melakukan login data tidak NULL
+--------------------------------------------
+RegisterViewModelTest
+
+ 1.Saat Register Berhasil
+  -Memastikan mengembalikan Result.Success
+  -Ketika melakukan Register data tidak NULL
+
+ 2.Saat Register Gagal
+  -Memastikan mengembalikan Result.Error
+  -Ketika melakukan Register data tidak NULL
+--------------------------------------------
+MainViewModelTest
+
+ 1.Saat berhasil menampilkan list item story
+  -memastikan story tidak NULL
+  -memastikan story sama dengan data dummy
+  -memastikan jumlah data sama dengan data dummy
+  -memastikan nama pertama dari story sama dengan data dummy
+--------------------------------------------
+MapsViewModelTest
+
+ 1.Saat berhasil menampilkan story
+  -Memastikan mengembalikan Result.Success
+  -Memastikan data tidak NULL
+
+ 2.Saat gagal menampilkan story
+ -Memastikan mengembalikan Result.Error
+ -Memastikan data tidak NULL
+--------------------------------------------
+AddStoryViewModelTest
+
+ 1.saat pload story berhasil
+  -Memastikan mengembalikan Result.Success
+  -Memastikan data tidak NULL
+
+ 2.saat upload story gagal
+  -Memastikan mengembalikan Result.Error
+  -Memastikan data tidak NULL
+
